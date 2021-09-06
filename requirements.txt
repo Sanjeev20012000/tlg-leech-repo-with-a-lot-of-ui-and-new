@@ -18,3 +18,4 @@ messages
 js2py
 cfscrape
 lk21
+speedtest-cli
