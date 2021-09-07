@@ -1,4 +1,5 @@
 from speedtest import Speedtest
+from telegram.message import Message
 import logging
 from tobrot.helper_funcs.display_progress import humanbytes
 
