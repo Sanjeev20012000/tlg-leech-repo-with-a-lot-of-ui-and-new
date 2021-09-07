@@ -4,7 +4,7 @@ from tobrot.helper_funcs.display_progress import humanbytes
 
 torlog = logging.getLogger(__name__)
 
-async def get_speed(message):
+async def get_speed(self, message):
     imspd = await message.reply("`Running speedtest...`")
     test = Speedtest()
     test.get_best_server()
