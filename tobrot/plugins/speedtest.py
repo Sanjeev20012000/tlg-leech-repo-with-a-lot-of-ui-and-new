@@ -21,8 +21,8 @@ async def get_speed(self, message):
 <b>ISP:</b> <code>{result['client']['isp']}</code>
 
 <b><i>🧭SpeedTest Results</i></b>
-<b>Upload:</b> <code>{speed_convert(result['upload'] / 8)}</code>
-<b>Download:</b>  <code>{speed_convert(result['download'] / 8)}</code>
+<b>Upload:</b> <code>{humanbytes(result['upload'] / 8)}</code>
+<b>Download:</b>  <code>{humanbytes(result['download'] / 8)}</code>
 <b>Ping:</b> <code>{result['ping']} ms</code>
 <b>ISP Rating:</b> <code>{result['client']['isprating']}</code>
 '''
