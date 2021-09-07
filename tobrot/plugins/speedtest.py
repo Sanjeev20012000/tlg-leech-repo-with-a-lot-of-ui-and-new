@@ -26,6 +26,17 @@ async def get_speed(self, message):
 <b>Ping:</b> <code>{result['ping']} ms</code>
 <b>ISP Rating:</b> <code>{result['client']['isprating']}</code>
 '''
+    editMessage(string_speed)
     await imspd.delete()
     await message.reply(string_speed, parse_mode="markdown")
     torlog.info(f'Server Speed result:-\nDL: {humanbytes(result["download"] / 8)}/s UL: {humanbytes(result["upload"] / 8)}/s')
+
+
+def editMessage(text: str, message: Message, reply_markup=None):
+    try:
+        bot.edit_message_text(text=text, message_id=message.message_id,
+                              chat_id=message.chat.id,reply_markup=reply_markup,
+                              parse_mode='HTMl')
+    except Exception as e:
+        LOGGER.error(str(e))
+
