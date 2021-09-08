@@ -35,7 +35,7 @@
     },
     "TOGGLE_DOC": {
       "description": "Enter your custom toggle command like toggledoc1@botname and so on. Default is /toggledoc.",
-      "value": "toggledoc"
+      "generator": "toggledoc"
       "required": false
     },
     "TOGGLE_VID": {
