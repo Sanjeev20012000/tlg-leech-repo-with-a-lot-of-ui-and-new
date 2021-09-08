@@ -1,15 +1,17 @@
 ![FUZION LEECH](https://telegra.ph/file/213b587eee775e34ca221.jpg)
 ## FuZionX Leech Bot 
-![GitHub Repo stars](https://img.shields.io/github/stars/5MysterySD/Tele-LeechX?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/5MysterySD/Tele-LeechX?color=green&style=flat)
-![GitHub contributors](https://img.shields.io/github/contributors/5MysterySD/Tele-LeechX?style=flat)
-![GitHub watchers](https://img.shields.io/github/watchers/5MysterySD/Tele-LeechX)
+![GitHub Repo Stars](https://img.shields.io/github/stars/5MysterySD/Tele-LeechX?color=blue&style=plastic)
+![GitHub Forks](https://img.shields.io/github/forks/5MysterySD/Tele-LeechX?color=green&style=plastic)
+![GitHub Contributors](https://img.shields.io/github/contributors/5MysterySD/Tele-LeechX?style=plastic)
+![GitHub Watchers](https://img.shields.io/github/watchers/5MysterySD/Tele-LeechX?style=plastic)
+[![Leech Group](https://img.shields.io/badge/Support%20Group-!-orange?style=plastic)](https://t.me/FuZionXLeech)
 
-**A Powerful Leech Bot .**
+**A Powerful Telegram Leech Bot .**
 
 ## Features Supported :-
 <details>
     <summary><b>Click Here For Description</b></summary>
+
 
 ### From Original Repo :
 - Google Drive link cloning using gclone.(wip)
@@ -27,6 +29,7 @@
 - Renaming of Telegram files support added. 😐
 - Changing rclone destination config on fly (By using `/rlcone` in private mode)
 
+
 ### From Different Repos :
 - Aria2 configs In Root
 - Small FIX for Gclone
@@ -35,6 +38,7 @@
 - Added Custom ToggleDoc and ToggleVid Commands
 - Added Custom Rename Command via vars
 - Added direct rclone.conf url in vars
+
 
 ### New In Repo :
 - UI Added for Improved User Experience with Easy to Use.
@@ -50,7 +54,9 @@ streamtape.com, streamsb.net, feurl.com, pixeldrain.com, racaty.net,
 
 </details>
 
+
 ## Variable Description :-
+
 
 ### Mandatory Variables :-
 <details>
@@ -68,6 +74,7 @@ streamtape.com, streamsb.net, feurl.com, pixeldrain.com, racaty.net,
 * `OWNER_ID`: ID of the Bot Owner, He/She can be abled to access bot in bot only mode too(`Private mode`).
 
 </details>
+
 
 ### Optional Configuration Variables :-
 
@@ -138,6 +145,7 @@ streamtape.com, streamsb.net, feurl.com, pixeldrain.com, racaty.net,
 
 </details>
 
+
 ## RClone Guide 
 
 <details>
@@ -161,6 +169,7 @@ client_secret =
 - Your config can contains multiple drive entries.(Default: First one and change using `/rclone` command)
 
 </details>
+
 
 ## Deploying on Heroku
 - Deploying on Heroku Indirectly `Supported`, Please Don't Abuse it. 
@@ -201,6 +210,7 @@ client_secret =
 
 </details>
 
+
 ## Commands Set To @BotFather :-
 - Set the Custom Commands in Heroku to Use it with Bot ( /(cmd)(bot_name) )
 
@@ -235,5 +245,6 @@ client_secret =
 ---
 
 </details>
+
 
 ## Give A ⭐ Star ⭐ Before You Go Anywhere 
