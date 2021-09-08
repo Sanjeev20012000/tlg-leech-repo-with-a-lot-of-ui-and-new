@@ -1,6 +1,6 @@
 {
   "name": "Tele-Leech-X",
-  "description": "A Powerful Telegram Torrent (and YouTube-DL) Leecher based on Pyrogram. Powered by @FuZionX",
+  "description": "A Powerful Telegram Torrent (and YouTube-DL) Leecher based on Pyrogram. Powered by @FuZionX and @FuZionXLeech",
   "logo": "https://telegra.ph/file/8abf8d2addb8f4d982d8a.jpg",
   "keywords": [
     "telegram"
@@ -22,7 +22,7 @@
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "Get this value from @BotFather by Making New Bot",
+      "description": "Get this value from @BotFather by Making New Bot and Paste the API token.",
       "value": ""
     },
     "AUTH_CHANNEL": {
@@ -35,30 +35,37 @@
     },
     "TOGGLE_DOC": {
       "description": "Enter your custom toggle command like toggledoc1@botname and so on. Default is /toggledoc.",
+      "value": "toggledoc"
       "required": false
     },
     "TOGGLE_VID": {
       "description": "Enter your custom toggle command like togglevid1@botname and so on. Default is /togglevid.",
+      "value": "togglevid"
       "required": false
     },
     "RENAME_COMMAND": {
       "description": "Enter your custom rename command like rename1@botname and so on. Default is /rename.",
+      "value": "rename"
       "required": false
     },
     "LOG_COMMAND": {
       "description": "Enter your custom log command like log1@botname and so on. Default is /log.",
+      "value": "log"
       "required": false
     },
     "STATUS_COMMAND": {
       "description": "Enter your custom status command like status1@botname and so on. Default is /status.",
+      "value": "status"
       "required": false
     },
     "LEECH_ZIP_COMMAND": {
-      "description": "Enter your custom zip command like togglevid1@botname and so on. Default is /leexhzip.",
+      "description": "Enter your custom zip command like archive1@botname and so on. Default is /leexhzip.",
+      "value": "archive"
       "required": false
     },
     "LEECH_UNZIP_COMMAND": {
-      "description": "Enter your custom unzip command like togglevid1@botname and so on. Default is /leechunzip.",
+      "description": "Enter your custom unzip command like extract@botname and so on. Default is /leechunzip.",
+      "value": "extract"
       "required": false
     },
     "CHUNK_SIZE": {
@@ -72,7 +79,7 @@
       "required": false
     },
     "EDIT_SLEEP_TIME_OUT": {
-      "description": "Should be an integer. Number of seconds to wait before editing a message. Put between from 6 - 15 else the Bot Crashes ",
+      "description": "Should be an integer. Number of seconds to wait before editing a message. Put between from 6 - 15 else the Bot Crashes 🥲",
       "value": "15",
       "required": false
     },
@@ -94,15 +101,18 @@
       "required": false
     },
     "LEECH_COMMAND": {
-      "description": "Enter your Custom leech command like /leech@botname and so on. Default is /leech",
+      "description": "Enter your Custom leech command like leech1@botname and so on. Default is /leech",
+      "value": "leech"
       "required": false
     },
     "SAVE_THUMBNAIL": {
       "description": "For Custom Save thumbnail Command. Default is /savethumbnail",
+      "value": "savethumb"
       "required": false
     },
     "CLEAR_THUMBNAIL": {
       "description": "For Custom Delete Thumbnail Command. Default is /clearthumbnail",
+      "value": "clearthumb"
       "required": false
     },
     "INDEX_LINK": {
@@ -110,11 +120,13 @@
       "required": false
     },
     "YTDL_COMMAND": {
-      "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
+      "description": "Enter your custom ytdl command like ytdl1@botname and so on. Default is /ytdl.",
+      "value": "ytdl"
       "required": false
     },
     "PYTDL_COMMAND": {
       "description": "Enter your custom pytdl command like pytdl1@botname and so on. Default is /pytdl.",
+      "value": "pytdl"
       "required": false
     },
     "GET_SIZE_G": {
@@ -130,9 +142,14 @@
       "required": false
     },
     "CUSTOM_FILE_NAME": {
-      "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
+      "description": "Fill with name you want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
       "required": false
     }
+    "SPEEDTEST": {
+      "description": "For Custom Speedtest Command. Default is /speedtest",
+      "value": "speedtest"
+      "required": false
+    },
   },
   "stack": "container"
 }
